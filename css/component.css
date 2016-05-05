@@ -183,6 +183,41 @@ a:hover {
 	content: "\e005";
 }
 
+ /* ************************* Portfolio Github Link ************************* */
+.see-code-link p{
+  	display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 35px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.see-code-link a{
+	border-radius:5%;
+}
+
+/* ************************* Main Contact Footer ************************* */
+
+.main-contact-footer{
+	position: fixed;
+	    bottom: 0px;
+	    background: #444;
+	    display: flex;
+	    justify-content: space-around;
+	    height: 50px;
+	    width: 100%;
+}
+
+.main-contact-footer p {
+	margin: 15px 0px 10px;
+	display:inline-block;
+}
+
+.main-contact-footer div{
+	margin-top:5px;
+
+}
+
 .bl-content, 
 div.bl-panel-items > div > div {
 	opacity: 0;
